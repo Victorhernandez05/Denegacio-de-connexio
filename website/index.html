@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetGuardian Bot | Control Total de la Xarxa</title>
+    <meta name="description" content="NetGuardian és un bot de Telegram per gestionar la teva xarxa local, desconnectar equips via ARP Spoofing i escanejar dispositius actius.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Meta Tags per SEO -->
+    <meta property="og:title" content="NetGuardian Bot">
+    <meta property="og:description" content="Controla la teva xarxa local des de Telegram. Seguretat i potència a la teva mà.">
+    <meta property="og:image" content="assets/hero.png">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">NetGuardian</div>
+        <ul>
+            <li><a href="#hero">Inici</a></li>
+            <li><a href="#features">Funcions</a></li>
+            <li><a href="#setup">Instal·lació</a></li>
+            <li><a href="https://github.com/Victorhernandez05/Denegacio-de-connexio.git" class="btn btn-primary" style="padding: 0.5rem 1.5rem;">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="hero">
+        <img src="assets/hero.png" alt="Networking Security Visualization" class="hero-image">
+        <h1 class="hero-title">Domina la teva <span class="gradient-text">Xarxa</span></h1>
+        <p class="hero-subtitle">NetGuardian és el bot de Telegram més potent per gestionar la connectivitat local, escanejar dispositius i protegir el teu entorn.</p>
+        <div class="hero-btns">
+            <a href="#setup" class="btn btn-primary">Començar ara</a>
+        </div>
+    </header>
+
+    <section class="features" id="features">
+        <div class="section-head reveal">
+            <h2>Funcionalitats <span class="gradient-text">Premium</span></h2>
+            <p>Eines de nivell professional en una interfície senzilla.</p>
+        </div>
+        <div class="grid">
+            <div class="card reveal">
+                <div class="card-icon">🛡️</div>
+                <h3>Control Local</h3>
+                <p>Bloqueja tot el trànsit d'internet de l'ordinador local mantenint la connexió amb Telegram via iptables.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-icon">🔫</div>
+                <h3>ARP Spoofing</h3>
+                <p>Desconnecta qualsevol dispositiu de la xarxa local (Kick) de forma remota amb un simple missatge.</p>
+            </div>
+            <div class="card reveal">
+                <div class="card-icon">🔍</div>
+                <h3>Escàner de Xarxa</h3>
+                <p>Llista tots els dispositius actius, les seves IPs i adreces MAC en temps real.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="code-section reveal">
+        <div class="section-head">
+            <h2>Interfície <span class="gradient-text">Telegram</span></h2>
+        </div>
+        <div class="code-container">
+            <div class="code-line"><span class="prompt">User:</span> /dispositius</div>
+            <div class="code-line"><span class="output">Bot:</span> 🔍 Escanejant la xarxa...</div>
+            <div class="code-line"><span class="output">Bot:</span> 📡 Dispositius a la xarxa:</div>
+            <div class="code-line"><span class="output">`192.168.1.50` — `00:0c:29:43:c2:d5` 🟢 en línia</span></div>
+            <div class="code-line"><span class="prompt">User:</span> /kick 192.168.1.50</div>
+            <div class="code-line"><span class="output">Bot:</span> ✅ Dispositiu 192.168.1.50 kickejat correctament.</div>
+        </div>
+    </section>
+
+    <section class="features" id="setup">
+        <div class="section-head reveal">
+            <h2>Instal·lació <span class="gradient-text">Ràpida</span></h2>
+        </div>
+        <div class="grid">
+            <div class="card reveal">
+                <h3>1. Clona el Repo</h3>
+                <p><code>git clone https://github.com/Victorhernandez05/Denegacio-de-connexio.git</code></p>
+            </div>
+            <div class="card reveal">
+                <h3>2. Dependències</h3>
+                <p><code>pip install -r requirements.txt</code></p>
+            </div>
+            <div class="card reveal">
+                <h3>3. Executa</h3>
+                <p><code>sudo python3 bot.py</code></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 NetGuardian Project. Creat amb ❤️ per a la seguretat en xarxa.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
