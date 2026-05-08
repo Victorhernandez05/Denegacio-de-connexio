@@ -1,5 +1,4 @@
-# Bot per desconnectar l'ordinador i altres dispositius
-
+# Bot de control de connectivitat
 Aquest és un bot de Telegram programat en Python que permet controlar la xarxa local des d'un dispositiu mòbil. 
 
 ## Funcionalitats principals
