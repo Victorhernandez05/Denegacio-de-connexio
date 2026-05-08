@@ -34,7 +34,6 @@ Aquest és un bot de Telegram programat en Python que permet controlar la xarxa 
 
 - /desbloquejar: Desactiva qualsevol restricció activa i restaura la connexió total a internet de manera instantània.
 
-Control d'Horaris Programats
 El bot permet automatitzar els bloquejos mitjançant intervals de temps definits per l'usuari:
 
 - /estat: Proporciona un resum detallat de la situació actual (si internet està bloquejat o no) i llista tots els intervals horaris que s'han programat fins al moment.
