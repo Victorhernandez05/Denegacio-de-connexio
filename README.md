@@ -30,18 +30,22 @@ Aquest és un bot de Telegram programat en Python que permet controlar la xarxa 
 
 <img width="361" height="150" alt="image" src="https://github.com/user-attachments/assets/eda0634a-f296-41a4-8310-856555ae701c" />
 
-- /bloquejar — Bloqueja internet (excepte Telegram).
+- /bloquejar: Activa el protocol de restricció. Tallarà l'accés a internet de tot el sistema, permetent exclusivament el trànsit de dades per a l'aplicació Telegram.
 
-- /desbloquejar — Restaura internet.
+- /desbloquejar: Desactiva qualsevol restricció activa i restaura la connexió total a internet de manera instantània.
 
-- /estat — Mostra estat i horaris.
+Control d'Horaris Programats
+El bot permet automatitzar els bloquejos mitjançant intervals de temps definits per l'usuari:
 
-- /afegir_horari HH:MM HH:MM — Afegeix un interval de temps (per exemple: /afegir_horari 18:00 20:30).
+- /estat: Proporciona un resum detallat de la situació actual (si internet està bloquejat o no) i llista tots els intervals horaris que s'han programat fins al moment.
 
-- /treure_horari N — Elimina l'horari número N de la llista.
+- /afegir_horari [Inici] [Final]: Permet registrar un nou interval de bloqueig automàtic.
 
-- /netejar_horaris — Elimina tots els horaris guardats.
+Exemple d'ús: /afegir_horari 18:00 20:30 (el sistema es bloquejarà cada dia en aquesta franja).
 
+- /treure_horari [N]: S'utilitza per eliminar un interval específic de la llista. Cal substituir la N pel número de l'índex que es mostra en consultar l'estat.
+
+- /netejar_horaris: Acció global per esborrar tota la configuració de programació actual i deixar el calendari buit.
 ## Ús
 
 Executa el bot amb:
