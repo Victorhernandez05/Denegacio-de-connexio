@@ -49,7 +49,7 @@ Exemple d'ús: /afegir_horari 18:00 20:30 (el sistema es bloquejarà cada dia en
 
 Executa el bot amb:
 
-```bash
+bash
 sudo ./venv/bin/python bot_nou.py
 
 <img width="675" height="48" alt="image" src="https://github.com/user-attachments/assets/7a76a4af-d4fb-4090-8b12-2233079e089f" />
