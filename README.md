@@ -45,6 +45,7 @@ Exemple d'ús: /afegir_horari 18:00 20:30 (el sistema es bloquejarà cada dia en
 - /treure_horari [N]: S'utilitza per eliminar un interval específic de la llista. Cal substituir la N pel número de l'índex que es mostra en consultar l'estat.
 
 - /netejar_horaris: Acció global per esborrar tota la configuració de programació actual i deixar el calendari buit.
+
 ## Ús
 
 Executa el bot amb:
