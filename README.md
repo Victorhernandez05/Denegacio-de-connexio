@@ -21,8 +21,8 @@ Aquest és un bot de Telegram programat en Python que permet controlar la xarxa 
     pip install -r requirements.txt
     ```
 2.  Configura el `bot.py`:
-    - Canvia `BOT_TOKEN` pel teu token.
-    - Posa el teu `ADMIN_ID` per seguretat.
+-  Canvia `BOT_TOKEN` pel teu token.
+-  Posa el teu `ADMIN_ID` per seguretat.
     <img width="582" height="130" alt="image" src="https://github.com/user-attachments/assets/03c5c73e-84e0-4cee-8d50-85dedda9a17a" />
 
 
